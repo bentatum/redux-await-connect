@@ -1,4 +1,4 @@
-# async-conncect
+# async-connect
 
 [![npm][npm-image]][npm-url]
 [![travis][travis-image]][travis-url]
@@ -14,13 +14,14 @@
 ## Install
 
 ```
-yarn add async-conncect 
+yarn add async-connect 
 ```
 
 ## Usage
 
 ```js
 import asyncConnect from 'async-conncect'
+import { compose, connect } from 'react-redux'
 
 const enhance = compose(
   asyncConnect([{
